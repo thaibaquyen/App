@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtsdtuser"
+            android:layout_width="157dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/btncancel"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="72dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custombutton"
+            android:text="CANCEL"
+            app:layout_constraintEnd_toStartOf="@+id/btnfinish"
+            app:layout_constraintStart_toEndOf="@+id/txtsdtuser"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnfinish"
+            android:layout_width="68dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/custombutton"
+            android:text="FINISH"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btncancel"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtdatetimedat"
+            android:layout_width="163dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="230dp"
+            android:text="TextView"
+            android:drawableLeft="@drawable/ic_clock_black_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtsdtuser" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

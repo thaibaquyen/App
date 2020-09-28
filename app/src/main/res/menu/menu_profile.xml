@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lichdadat"
+            android:title="Đã đặt" />
+
+        <item
+            android:id="@+id/like"
+            android:title="Yêu thích" />
+
+        <item
+            android:id="@+id/danhgia"
+            android:title="Đánh giá" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Đăng Xuất" />
+
+    </group>
+</menu>

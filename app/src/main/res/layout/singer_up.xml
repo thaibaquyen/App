@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56bd84">
+
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="phone"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="170px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="40px"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="password"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="70px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="40px"/>
+
+
+
+    <RatingBar
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#dfea2d"
+        android:rating="3.5"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="40px"
+        android:text="sign up"
+        android:layout_margin="@android:dimen/app_icon_size"/>
+
+</LinearLayout>
